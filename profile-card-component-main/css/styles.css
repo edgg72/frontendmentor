@@ -10,11 +10,17 @@ body{
     font-family: Kumbh;
 }
 
+h2{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
 .cardClass{
+    position:relative;
     background: url(../images/bg-pattern-card.svg) top, white bottom;
     background-repeat: no-repeat;
-    width: 320px;
-    height: 400px;
+    width: 340px;
+    height: 380px;
     border-radius: 20px;  
     margin:auto;
     margin-top: 8%; 
@@ -23,8 +29,10 @@ body{
 .cardClass img{
     border-radius: 50px;
     border: 5px solid white;
+    position: relative;
     margin-top: 28%;
-    margin-left: 33%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .attribution{
@@ -43,7 +51,7 @@ body{
 .Bottom{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .Bottom div{
@@ -53,8 +61,9 @@ body{
 .cardClass section{
     text-align: center;
 }
-.cardClass section p{
+.cardClass section h3{
     font-size: 18px;
+    font-weight: initial;
     color: hsl(0, 0%, 59%);
 }
 .cardClass .Bottom p{
@@ -67,7 +76,8 @@ body{
     color: black;
 }
 
-.cardClass section:nth-of-type(1) p:nth-of-type(2){
+.cardClass section:nth-of-type(1) p{
     font-size: 13px;
+    color: hsl(0, 0%, 59%);
 }
 
